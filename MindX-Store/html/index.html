@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindX Store</title>
+  <!-- Nhúng fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Nhúng google font vào dự án -->
+
+
+  <!-- Nhung bootstrap vào website -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- Nhúng CSS vào html -->
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+</head>
+
+<body>
+  <!-- Code HTML tại đây -->
+  <div class="navbar">
+    <div class="upper-navbar">
+      <a href="./index.html">
+        <h1>Mind<span>X</span> Store</h1>
+      </a>
+      <form class="search" method="get" action="./search.html">
+        <input type="text" placeholder="Search for product ..." name="q" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div class="icons">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-heart"></i>
+
+      </div>
+    </div>
+
+    <!-- Phần navbar bên dưới -->
+    <div class="lower-navbar" onclick="event.stopPropagation()">
+      <div class="header">
+
+      </div>
+
+      <div>
+        <div class="all-categories" tabindex="0">
+          <div>
+            <span>
+              <i class="fa-solid fa-align-left"></i>
+              <span>All Categories</span>
+            </span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="category-drops"></div>
+        </div>
+        <div class="drop" tabindex="0">
+          <a href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a class="list-child" href="#">Electronic</a>
+            <a class="list-child" href="#">Fashion</a>
+            <a class="list-child" href="#">Beauty</a>
+          </div>
+        </div>
+
+        <div class="drop" tabindex="0">
+          <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a class="list-child" href="#">Shop pages</a>
+            <a class="list-child" href="#">Features</a>
+            <a class="list-child" href="#">Hover style</a>
+          </div>
+        </div>
+
+        <div class="drop" tabindex="0">
+          <a href="#">Products <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a class="list-child" href="#">Shop pages</a>
+            <a class="list-child" href="#">Categories</a>
+            <a class="list-child" href="#">Shopping Cart</a>
+            <a class="list-child" href="#">Wishlist</a>
+            <a class="list-child" href="#">Wish Video</a>
+          </div>
+        </div>
+
+        <div class="drop" tabindex="0">
+          <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a class="list-child" href="#">Blog Sandard</a>
+            <a class="list-child" href="#">Blog Grid</a>
+          </div>
+        </div>
+
+        <div class="hide"><a href="./contact.html">Contact</a></div>
+      </div>
+
+      <div class="contact">
+        <i class="fa-solid fa-phone" style="color: var(--primary);"></i>
+        <div>
+          <p>Hotline:</p>
+          <p>+123 456 789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/jbl-tune-flex-slide.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/690-300-max-sliding-bluestone.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/xioami-13t-th111-slidinh.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="main-content">
+      <div id="categories">
+
+
+      </div>
+
+      <div class="features">
+        <div>
+          <i class="fa-solid fa-cube"></i>
+          <div>
+            <strong>Free Delivery</strong>
+            <p>Orders from all item</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <div>
+            <strong>Return & Refund</strong>
+            <p>Money back guarantee</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-percent"></i>
+          <div>
+            <strong>Member Discount</strong>
+            <p>One very order over $140</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-headphones"></i>
+          <div>
+            <strong>Support 24/7</strong>
+            <p>Contact us 24 hours a day</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="heading">
+        Trending Products
+      </h3>
+
+      <div id="products">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="../scripts/data.js"></script>
+  <script src="../scripts/product.js"></script>
+</body>
+
+</html>
