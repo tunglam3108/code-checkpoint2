@@ -1,0 +1,68 @@
+.banner {
+    /* background: #115061; */
+    position: relative;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .banner h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    line-height: 1;
+  }
+  
+  
+  .banner img {
+    height: 600px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .features>div {
+    background: #f6f7f9;
+    padding: 30px 35px;
+    display: flex;
+    gap: 25px;
+  }
+  
+  
+  .features i {
+    width: 30x;
+    font-size: 30px;
+    color: #f8516f;
+  }
+  
+  
+  .features>div>div {
+    font-size: 18px;
+  }
+  
+  .features strong {
+    color: #000;
+  }
+  
+  .features p {
+    color: #808080;
+    margin-top: 5px;
+  }
+  
+  
+  .main-content {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  #categories {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-card img {
+    width: 160px;
+    height: 160px;
+  }

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bungee Inline', cursive;
+}
+
+body{
+    background-color: #eeaa7c;
+    text-align: center;
+}
+.navigationlogo img{
+    width: 100px;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav {
+    background-color: #f0863b;
+    height: 48px;
+    line-height: 50px;
+}
+.nav a {
+    color: #fff;
+    padding: 10px;
+    height: 48px;
+    line-height: 50px;
+}
+.nav-cuoi{
+    background-color: #f0863b;
+      height: 400px;
+      
+  
+      
+  }
+  
+  .text-cuoi{
+    display: flex;
+    justify-content: space-around;
+  }
+  .text2{
+    text-align: left;
+    
+  }
+  .title {
+    font-size: xx-large;
+    text-align: center;
+  }
+
+.container-danhgia{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+   
+}
+.container-danhgia .box-danhgia{
+  width: 1000px;
+    background-color: #fff;
+    box-shadow: 6px 5px 6px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    padding: 1rem;
+    color: #030303;
+    height: fit-content;
+    justify-content: space-around;
+}
+.container-danhgia2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100%;
+   
+}
+/* .container-danhgia2 .box-danhgia2{
+    width: 1000px;
+    background-color: #fff;
+    box-shadow: 6px 5px 6px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    padding: 1rem;
+    color: #030303;
+    height: fit-content;
+    display: flex;
+    /* justify-content: space-around;
+    text-align: justify;   */
+/* } */ 
+/* .img-cake{
+    height: 100%;
+} */
+  /* .img-cake img{
+     width: 10%;
+     height: 50%;
+  } */
+/* .title{
+    font-size: xx-large;
+} */
+.container-danhgia2{
+  display: flex;
+  width: 970px;
+    background-color: #fff;
+    box-shadow: 6px 5px 6px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    justify-content: space-around;
+    text-align: justify;
+    height: fit-content;
+    
+}
+.container-danhgia2 img{
+  width: 100px;
+}
+button {
+  width: 35%;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 0px;
+  margin: 10px 0px 25px 0px;
+  background-color: #f3904f;
+  cursor: pointer;
+}
