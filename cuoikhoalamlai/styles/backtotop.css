@@ -1,0 +1,14 @@
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    cursor: pointer;
+  }
